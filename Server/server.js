@@ -6,7 +6,7 @@ const port = 3000
 app.use(cors({ origin: 'http://localhost:5173' }))
 app.use(express.json());
 app.post('/reading', async  (req, res) => {
-  const prediction = await readTarot("query");
+  const prediction = await readTarot(req.body);
   res.send(prediction)
 })
 app.get('/', (req, res) => {

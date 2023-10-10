@@ -21,7 +21,7 @@ function App() {
   const getReading =async (params:Reading) => {
     axios.post("http://localhost:3000/reading", params).then(
       (res)=>{
-        console.log(res)
+        window.alert(res.data)
       }
     )
   }
