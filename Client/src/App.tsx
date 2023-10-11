@@ -1,7 +1,8 @@
 
+import { useState } from 'react';
 import './App.css'
 import axios from 'axios';
-type Reading = {
+type Context = {
   question: string,
   significator: string,
   c1: string,
@@ -16,12 +17,14 @@ type Reading = {
   c10: string
 
 }
+
 function App() {
 
-  const getReading =async (params:Reading) => {
+  const getReading =async (params:Context) => {
     axios.post("http://localhost:3000/reading", params).then(
       (res)=>{
-        window.alert(res.data)
+
+        console.log(res.data[0])
       }
     )
   }
