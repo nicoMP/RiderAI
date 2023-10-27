@@ -1,0 +1,549 @@
+{
+    "m-0": {
+      "name": "The Fool",
+      "type": "Major Arcana",
+      "meaning": "beginnings, spontaneity, innocence, unpredictability, new journeys",
+      "reversed": "recklessness, foolishness, risk-taking, chaos, carelessness",
+      "description": "A young man about to step off a cliff, a small dog at his heels."
+    },
+    "m-1": {
+      "name": "The Magician",
+      "type": "Major Arcana",
+      "meaning": "manifestation, resourcefulness, power, action, concentration",
+      "reversed": "manipulation, poor planning, untapped potential, latent talents",
+      "description": "A magician with one hand pointing to the sky and the other to the ground."
+    },
+    "m-2": {
+      "name": "The High Priestess",
+      "type": "Major Arcana",
+      "meaning": "intuition, subconscious, mystery, the unknown, hidden knowledge",
+      "reversed": "secrets, disconnected from intuition, withdrawal, lack of clarity",
+      "description": "A woman seated between two pillars, holding a scroll with the Torah, a crescent moon at her feet."
+    },
+    "m-3": {
+      "name": "The Empress",
+      "type": "Major Arcana",
+      "meaning": "fertility, nurturing, abundance, motherhood, sensuality",
+      "reversed": "infertility, dependence on others, creative block, neglect",
+      "description": "A pregnant woman in a garden, a shield with a Venus symbol behind her."
+    },
+    "m-4": {
+      "name": "The Emperor",
+      "type": "Major Arcana",
+      "meaning": "authority, leadership, structure, fatherhood, stability",
+      "reversed": "tyranny, domination, rigidity, overbearing, inflexibility",
+      "description": "A stern-looking emperor on a stone throne, holding an ankh and globe."
+    },
+    "m-5": {
+      "name": "The Hierophant",
+      "type": "Major Arcana",
+      "meaning": "spiritual guidance, conformity, tradition, institutions, faith",
+      "reversed": "unconventional beliefs, rebellion, non-conformity, unorthodox",
+      "description": "A religious figure with two acolytes, two pillars, and a triple crown."
+    },
+    "m-6": {
+      "name": "The Lovers",
+      "type": "Major Arcana",
+      "meaning": "love, relationships, choices, partnerships, values",
+      "reversed": "disharmony, separation, unwise choices, conflict, values clash",
+      "description": "A man and a woman with an angel above, standing before a tree."
+    },
+    "m-7": {
+      "name": "The Chariot",
+      "type": "Major Arcana",
+      "meaning": "victory, willpower, determination, self-control, confidence",
+      "reversed": "lack of direction, lack of control, aggression, obstacles, discord",
+      "description": "A charioteer with two opposing sphinxes, often in motion."
+    },
+    "m-8": {
+      "name": "Strength",
+      "type": "Major Arcana",
+      "meaning": "courage, inner strength, patience, compassion, power",
+      "reversed": "self-doubt, weakness, insecurity, lack of control, manipulation",
+      "description": "A woman with a lion, often depicted as gently taming it."
+    },
+    "m-9": {
+      "name": "The Hermit",
+      "type": "Major Arcana",
+      "meaning": "solitude, introspection, guidance, solitude, inner guidance",
+      "reversed": "isolation, loneliness, withdrawal, stubbornness, refusal to seek help",
+      "description": "An old man with a staff, lantern, and hooded cloak in the mountains."
+    },
+    "m-10": {
+      "name": "Wheel of Fortune",
+      "type": "Major Arcana",
+      "meaning": "change, cycles, destiny, luck, fate",
+      "reversed": "bad luck, unforeseen events, resistance to change, cycles stalled",
+      "description": "A wheel with figures and creatures, turning clockwise."
+    },
+    "m-11": {
+      "name": "Justice",
+      "type": "Major Arcana",
+      "meaning": "fairness, truth, balance, law, accountability",
+      "reversed": "injustice, dishonesty, bias, legal issues, lack of accountability",
+      "description": "A woman with a scale and sword, often blindfolded."
+    },
+    "m-12": {
+      "name": "The Hanged Man",
+      "type": "Major Arcana",
+      "meaning": "sacrifice, release, letting go, suspension, new perspective",
+      "reversed": "selfishness, resistance to change, delaying, martyrdom, narrow perspective",
+      "description": "A man hanging upside down by one foot from a tree."
+    },
+    "m-13": {
+      "name": "Death",
+      "type": "Major Arcana",
+      "meaning": "endings, transformation, change, new beginnings, rebirth",
+      "reversed": "resistance to change, holding on, stagnation, fear of the unknown",
+      "description": "A skeletal figure, often on a white horse, with people in its path."
+    },
+    "m-14": {
+      "name": "Temperance",
+      "type": "Major Arcana",
+      "meaning": "balance, harmony, moderation, patience, synthesis",
+      "reversed": "imbalance, excess, disharmony, impatience, lack of synthesis",
+      "description": "An angel with two cups, pouring liquid between them."
+    },
+    "m-15": {
+      "name": "The Devil",
+      "type": "Major Arcana",
+      "meaning": "temptation, bondage, materialism, ignorance, control",
+      "reversed": "release, enlightenment, freedom, breaking free, newfound clarity",
+      "description": "A horned devil figure with two chained humans in front of him."
+    },
+    "m-16": {
+      "name": "The Tower",
+      "type": "Major Arcana",
+      "meaning": "sudden upheaval, revelation, chaos, awakening, unexpected change",
+      "reversed": "avoidance of disaster, delaying the inevitable, resisting change",
+      "description": "A tower struck by lightning, with figures falling from it."
+    },
+    "m-17": {
+      "name": "The Star",
+      "type": "Major Arcana",
+      "meaning": "hope, inspiration, spirituality, optimism, serenity",
+      "reversed": "lack of faith, despair, unfulfilled hopes, disappointment, gloom",
+      "description": "A woman pouring water into a pool, with stars above."
+    },
+    "m-18": {
+      "name": "The Moon",
+      "type": "Major Arcana",
+      "meaning": "illusion, intuition, the subconscious, fear, confusion",
+      "reversed": "release of fear, confusion lifted, clarity, illumination, intuition",
+      "description": "Two dogs and a wolf howling at the moon, with a crayfish in a pool."
+    },
+    "m-19": {
+      "name": "The Sun",
+      "type": "Major Arcana",
+      "meaning": "joy, success, vitality, happiness, enlightenment",
+      "reversed": "temporary depression, lack of success, cloudy outlook, negativity",
+      "description": "A young child on a white horse, with sunflowers and a bright sun."
+    },
+    "m-20": {
+      "name": "Judgment",
+      "type": "Major Arcana",
+      "meaning": "renewal, rebirth, reflection, awakening, accountability",
+      "reversed": "self-doubt, refusal to change, ignoring a wake-up call, lack of self-reflection",
+      "description": "An angel with a trumpet, with people rising from coffins below."
+    },
+    "m-21": {
+      "name": "The World",
+      "type": "Major Arcana",
+      "meaning": "fulfillment, completion, wholeness, travel, accomplishment",
+      "reversed": "incomplete, lack of closure, stagnation, unfulfilled potential",
+      "description": "A figure holding a staff in a circle, surrounded by four animals."
+    },
+    "w-1": {
+      "name": "Ace of Wands",
+      "type": "Wands",
+      "meaning": "inspiration, new beginnings, creation, potential, energy",
+      "reversed": "lack of direction, delays, missed opportunities, unfulfilled potential",
+      "description": "A hand holding a wand with leaves and buds sprouting from it."
+    },
+    "w-2": {
+      "name": "Two of Wands",
+      "type": "Wands",
+      "meaning": "planning, decisions, progress, future, personal power",
+      "reversed": "lack of planning, fear of change, playing it safe, limited vision",
+      "description": "A man holding a globe, looking out over a castle."
+    },
+    "w-3": {
+      "name": "Three of Wands",
+      "type": "Wands",
+      "meaning": "expansion, foresight, leadership, trade, exploration",
+      "reversed": "lack of foresight, delays, missed opportunities, unfulfilled potential",
+      "description": "A man watching ships sail, holding three wands."
+    },
+    "w-4": {
+      "name": "Four of Wands",
+      "type": "Wands",
+      "meaning": "celebration, harmony, homecoming, relaxation, unity",
+      "reversed": "lack of harmony, disrupted celebration, family conflicts, tension",
+      "description": "People celebrating with wands and garlands."
+    },
+    "w-5": {
+      "name": "Five of Wands",
+      "type": "Wands",
+      "meaning": "competition, conflict, struggle, rivalry, chaos",
+      "reversed": "inner conflict, conflict avoidance, resolving differences, peace",
+      "description": "Five people with wands, engaged in a competitive struggle."
+    },
+    "w-6": {
+      "name": "Six of Wands",
+      "type": "Wands",
+      "meaning": "victory, public recognition, progress, self-confidence, triumph",
+      "reversed": "lack of recognition, ego issues, self-doubt, fear of failure",
+      "description": "A man on a horse, holding a wand, parading with laurel wreaths."
+    },
+    "w-7": {
+      "name": "Seven of Wands",
+      "type": "Wands",
+      "meaning": "defensiveness, courage, determination, perseverance, standing your ground",
+      "reversed": "giving in, backing down, feeling overwhelmed, surrender",
+      "description": "A man on a hill, defending himself against six wands."
+    },
+    "w-8": {
+      "name": "Eight of Wands",
+      "type": "Wands",
+      "meaning": "swift action, messages, quick decisions, travel, movement",
+      "reversed": "delays, frustration, miscommunication, obstacles, slowing down",
+      "description": "Eight wands flying through the air."
+    },
+    "w-9": {
+      "name": "Nine of Wands",
+      "type": "Wands",
+      "meaning": "resilience, determination, inner strength, persistence, recovery",
+      "reversed": "exhaustion, giving up, overwhelmed, lack of resilience, surrender",
+      "description": "A man with a bandage on his head, leaning on a wand."
+    },
+    "w-10": {
+      "name": "Ten of Wands",
+      "type": "Wands",
+      "meaning": "burden, responsibility, overload, stress, hard work",
+      "reversed": "relief, delegation, letting go, release, lightening the load",
+      "description": "A man carrying a heavy load of wands on his back."
+    },
+    "w-11": {
+      "name": "Page of Wands",
+      "type": "Wands",
+      "meaning": "exploration, excitement, discovery, curiosity, new opportunities",
+      "reversed": "lack of inspiration, missed opportunities, impulsive actions, recklessness",
+      "description": "A young person with a wand, looking out at the desert landscape."
+    },
+    "w-12": {
+      "name": "Knight of Wands",
+      "type": "Wands",
+      "meaning": "action, adventure, impulsiveness, risk-taking, energy",
+      "reversed": "hasty actions, recklessness, impulsiveness, lack of direction, burnout",
+      "description": "A knight on a horse, charging forward with a wand."
+    },
+    "w-13": {
+      "name": "Queen of Wands",
+      "type": "Wands",
+      "meaning": "confidence, independence, determination, charisma, leadership",
+      "reversed": "insecurity, dependency, domineering, lack of self-belief, manipulation",
+      "description": "A queen on a throne, holding a sunflower wand."
+    },
+    "w-14": {
+      "name": "King of Wands",
+      "type": "Wands",
+      "meaning": "leadership, vision, entrepreneur, inspiration, confidence",
+      "reversed": "impatience, impulsivity, temper, arrogance, domineering",
+      "description": "A king on a throne, holding a flaming wand."
+    },
+    "c-1": {
+      "name": "Ace of Cups",
+      "type": "Cups",
+      "meaning": "emotional new beginnings, love, intuition, compassion, happiness",
+      "reversed": "emotional blockage, emptiness, apathy, lack of love, missed opportunity",
+      "description": "A hand holding a cup overflowing with water, a dove descending."
+    },
+    "c-2": {
+      "name": "Two of Cups",
+      "type": "Cups",
+      "meaning": "connection, love, partnership, relationships, harmony",
+      "reversed": "imbalance, disharmony, broken relationships, misunderstandings",
+      "description": "A man and woman, exchanging cups in front of a Caduceus."
+    },
+    "c-3": {
+      "name": "Three of Cups",
+      "type": "Cups",
+      "meaning": "celebration, friendship, creativity, community, joy",
+      "reversed": "overindulgence, shallow friendships, gossip, exclusion",
+      "description": "Three women raising cups in celebration."
+    },
+    "c-4": {
+      "name": "Four of Cups",
+      "type": "Cups",
+      "meaning": "contemplation, introspection, withdrawal, meditation, apathy",
+      "reversed": "new perspectives, acceptance, re-engagement, gratitude, opportunities",
+      "description": "A man sitting under a tree, contemplating three cups."
+    },
+    "c-5": {
+      "name": "Five of Cups",
+      "type": "Cups",
+      "meaning": "loss, disappointment, grief, regret, emotional pain",
+      "reversed": "forgiveness, acceptance, moving on, finding silver linings",
+      "description": "A man with three spilled cups and two remaining, turned away."
+    },
+    "c-6": {
+      "name": "Six of Cups",
+      "type": "Cups",
+      "meaning": "nostalgia, childhood memories, innocence, reunions, joy",
+      "reversed": "living in the past, unrealistic nostalgia, unwilling to move on",
+      "description": "Two children exchanging cups, surrounded by flowers."
+    },
+    "c-7": {
+      "name": "Seven of Cups",
+      "type": "Cups",
+      "meaning": "fantasy, illusion, choices, daydreams, imagination",
+      "reversed": "facing reality, clarity, making decisions, grounding, focus",
+      "description": "A man looking at seven cups, each with different visions."
+    },
+    "c-8": {
+      "name": "Eight of Cups",
+      "type": "Cups",
+      "meaning": "discontent, abandonment, withdrawal, searching, self-discovery",
+      "reversed": "unwilling to walk away, fear of change, staying in a stagnant situation",
+      "description": "A man walking away from eight cups, towards the mountains."
+    },
+    "c-9": {
+      "name": "Nine of Cups",
+      "type": "Cups",
+      "meaning": "happiness, fulfillment, contentment, emotional satisfaction, wish fulfillment",
+      "reversed": "overindulgence, smugness, materialism, delayed gratification, superficiality",
+      "description": "A man sitting with nine cups, appearing satisfied."
+    },
+    "c-10": {
+      "name": "Ten of Cups",
+      "type": "Cups",
+      "meaning": "emotional fulfillment, joy, family, harmony, contentment",
+      "reversed": "broken family, discord, disconnection, unhappiness, unfulfilled dreams",
+      "description": "A family celebrating under a rainbow of ten cups."
+    },
+    "c-11": {
+      "name": "Page of Cups",
+      "type": "Cups",
+      "meaning": "dreams, intuition, creativity, messages, new feelings",
+      "reversed": "emotional immaturity, unrealistic fantasies, moodiness, deception",
+      "description": "A young person with a cup and fish emerging from it."
+    },
+    "c-12": {
+      "name": "Knight of Cups",
+      "type": "Cups",
+      "meaning": "romantic, charming, sensitive, imagination, dreamer",
+      "reversed": "moodiness, unrealistic expectations, emotional manipulation, deceptiveness",
+      "description": "A knight on a horse, holding a cup, wearing flowing armor."
+    },
+    "c-13": {
+      "name": "Queen of Cups",
+      "type": "Cups",
+      "meaning": "empathy, intuition, compassion, emotional support, kindness",
+      "reversed": "martyrdom, over-sensitivity, emotional insecurity, hidden agendas",
+      "description": "A queen seated on a throne with a cup and a seashell."
+    },
+    "c-14": {
+      "name": "King of Cups",
+      "type": "Cups",
+      "meaning": "compassion, control over emotions, balance, wisdom, maturity",
+      "reversed": "emotional instability, mood swings, manipulation, emotional detachment",
+      "description": "A king on a throne with a cup, holding a fish."
+    },
+    "s-1": {
+      "name": "Ace of Swords",
+      "type": "Swords",
+      "meaning": "clarity, breakthrough, truth, power, realization",
+      "reversed": "confusion, chaos, false starts, lack of clarity, mental blocks",
+      "description": "A hand holding a sword, with a crown and wreath above."
+    },
+    "s-2": {
+      "name": "Two of Swords",
+      "type": "Swords",
+      "meaning": "indecision, choices, truce, balance, blocked emotions",
+      "reversed": "indecision, confusion, stalemate, avoidance, facing a difficult choice",
+      "description": "A woman with two swords crossed over her chest, blindfolded."
+    },
+    "s-3": {
+      "name": "Three of Swords",
+      "type": "Swords",
+      "meaning": "heartbreak, sorrow, grief, emotional pain, betrayal",
+      "reversed": "healing, forgiveness, moving on, releasing pain, recovery",
+      "description": "A heart pierced by three swords, often with rain falling."
+    },
+    "s-4": {
+      "name": "Four of Swords",
+      "type": "Swords",
+      "meaning": "rest, recuperation, contemplation, meditation, healing",
+      "reversed": "restlessness, burnout, inability to rest, overthinking, delayed healing",
+      "description": "A figure resting on a tomb with three swords above."
+    },
+    "s-5": {
+      "name": "Five of Swords",
+      "type": "Swords",
+      "meaning": "conflict, defeat, betrayal, loss, humiliation",
+      "reversed": "reconciliation, making amends, letting go of resentment, forgiveness",
+      "description": "A man with three swords, two figures with dropped swords behind him."
+    },
+    "s-6": {
+      "name": "Six of Swords",
+      "type": "Swords",
+      "meaning": "transition, recovery, moving on, guidance, support",
+      "reversed": "stuck in the past, unfinished business, resistance to change, unhelpful support",
+      "description": "A woman and child being rowed in a boat, leaving troubled waters behind."
+    },
+    "s-7": {
+      "name": "Seven of Swords",
+      "type": "Swords",
+      "meaning": "deception, betrayal, sneakiness, evasion, theft",
+      "reversed": "exposure, self-acceptance, facing the truth, ownership, reclaiming stolen ideas",
+      "description": "A man stealing five swords, leaving two behind."
+    },
+    "s-8": {
+      "name": "Eight of Swords",
+      "type": "Swords",
+      "meaning": "entrapment, powerlessness, restriction, self-imposed limits, fear",
+      "reversed": "self-liberation, freedom, facing fears, finding solutions, breaking free",
+      "description": "A woman blindfolded and bound, surrounded by eight swords."
+    },
+    "s-9": {
+      "name": "Nine of Swords",
+      "type": "Swords",
+      "meaning": "anxiety, nightmares, despair, guilt, mental anguish",
+      "reversed": "release of anxiety, facing fears, recovery, seeking help, finding solutions",
+      "description": "A woman sitting up in bed, her head in her hands, with nine swords above her."
+    },
+    "s-10": {
+      "name": "Ten of Swords",
+      "type": "Swords",
+      "meaning": "endings, betrayal, rock bottom, collapse, painful transition",
+      "reversed": "recovery, release, new beginnings, hitting rock bottom, learning from pain",
+      "description": "A man lying face down with ten swords in his back."
+    },
+    "s-11": {
+      "name": "Page of Swords",
+      "type": "Swords",
+      "meaning": "curiosity, mental agility, new ideas, exploration, youthful energy",
+      "reversed": "immaturity, impulsiveness, hasty actions, thoughtlessness, lack of focus",
+      "description": "A young person with a sword, looking alert and focused."
+    },
+    "s-12": {
+      "name": "Knight of Swords",
+      "type": "Swords",
+      "meaning": "action, determination, decisiveness, assertiveness, swift change",
+      "reversed": "haste, aggression, impulsiveness, recklessness, anger",
+      "description": "A knight charging forward on a horse, with a raised sword."
+    },
+    "s-13": {
+      "name": "Queen of Swords",
+      "type": "Swords",
+      "meaning": "clarity, independence, maturity, logical thinking, truthfulness",
+      "reversed": "harsh judgment, coldness, cruelty, bitterness, cutting remarks",
+      "description": "A queen with a sword, often holding it pointed upwards."
+    },
+    "s-14": {
+      "name": "King of Swords",
+      "type": "Swords",
+      "meaning": "authority, power, intellect, truth, fairness",
+      "reversed": "abuse of power, manipulation, tyranny, coldness, dishonesty",
+      "description": "A king with a sword, often seated and holding the sword upright."
+    },
+    "p-1": {
+      "name": "Ace of Pentacles",
+      "type": "Pentacles",
+      "meaning": "new opportunities, prosperity, abundance, potential, manifestation",
+      "reversed": "missed opportunities, lack of progress, financial issues, lack of stability",
+      "description": "A hand holding a pentacle with a lush garden in the background."
+    },
+    "p-2": {
+      "name": "Two of Pentacles",
+      "type": "Pentacles",
+      "meaning": "balance, adaptability, juggling priorities, change, multitasking",
+      "reversed": "imbalanced priorities, overwhelmed, unable to cope, loss of balance",
+      "description": "A person juggling two pentacles with two ships in the background."
+    },
+    "p-3": {
+      "name": "Three of Pentacles",
+      "type": "Pentacles",
+      "meaning": "teamwork, collaboration, planning, competence, recognition",
+      "reversed": "lack of teamwork, criticism, conflict, poor workmanship, unappreciated",
+      "description": "Three people working together on a building project."
+    },
+    "p-4": {
+      "name": "Four of Pentacles",
+      "type": "Pentacles",
+      "meaning": "stability, security, control, possession, conservatism",
+      "reversed": "greed, materialism, possessiveness, holding back, fear of loss",
+      "description": "A man holding onto four pentacles, closed off to the world."
+    },
+    "p-5": {
+      "name": "Five of Pentacles",
+      "type": "Pentacles",
+      "meaning": "hard times, poverty, insecurity, hardship, financial loss",
+      "reversed": "recovery, improved finances, finding help, relief, spiritual poverty",
+      "description": "Two people in rags outside a church in the snow."
+    },
+    "p-6": {
+      "name": "Six of Pentacles",
+      "type": "Pentacles",
+      "meaning": "generosity, giving, charity, receiving, support",
+      "reversed": "selfishness, greed, stinginess, debt, financial inequality",
+      "description": "A man giving to two beggars, with scales in the background."
+    },
+    "p-7": {
+      "name": "Seven of Pentacles",
+      "type": "Pentacles",
+      "meaning": "assessment, patience, long-term view, reward, investment",
+      "reversed": "impatience, lack of long-term vision, investments not paying off, impatience",
+      "description": "A person assessing the growth of pentacles on a plant."
+    },
+    "p-8": {
+      "name": "Eight of Pentacles",
+      "type": "Pentacles",
+      "meaning": "diligence, craftsmanship, apprenticeship, skill, self-improvement",
+      "reversed": "perfectionism, boredom, lack of progress, lack of skills, mediocrity",
+      "description": "A person working on pentacles with focus and precision."
+    },
+    "p-9": {
+      "name": "Nine of Pentacles",
+      "type": "Pentacles",
+      "meaning": "independence, self-sufficiency, luxury, abundance, solitude",
+      "reversed": "dependence, financial setbacks, lost independence, isolation, excess",
+      "description": "A woman in a lush garden with a falcon on her arm."
+    },
+    "p-10": {
+      "name": "Ten of Pentacles",
+      "type": "Pentacles",
+      "meaning": "legacy, wealth, family, financial stability, prosperity",
+      "reversed": "financial loss, family disputes, lost legacy, instability, greed",
+      "description": "A family with a rich couple, children, and a dog in front of a grand house."
+    },
+    "p-11": {
+      "name": "Page of Pentacles",
+      "type": "Pentacles",
+      "meaning": "learning, curiosity, new skills, diligence, practicality",
+      "reversed": "lack of focus, missed opportunities, immaturity, naivety, poor work",
+      "description": "A young person with a pentacle, focusing on it with curiosity."
+    },
+    "p-12": {
+      "name": "Knight of Pentacles",
+      "type": "Pentacles",
+      "meaning": "responsibility, hard work, thoroughness, reliability, efficiency",
+      "reversed": "lack of responsibility, laziness, apathy, workaholism, micromanagement",
+      "description": "A knight on a horse, holding a pentacle, focused on the path."
+    },
+    "p-13": {
+      "name": "Queen of Pentacles",
+      "type": "Pentacles",
+      "meaning": "nurturing, practicality, comfort, abundance, generosity",
+      "reversed": "dependency, smothering, possessiveness, financial insecurity, neglect",
+      "description": "A queen with a pentacle, surrounded by lush nature."
+    },
+    "p-14": {
+      "name": "King of Pentacles",
+      "type": "Pentacles",
+      "meaning": "abundance, security, power, control, responsibility",
+      "reversed": "financial instability, materialism, greed, tyranny, miserliness",
+      "description": "A king with a pentacle, often seated on a throne."
+    }
+  }
+  
