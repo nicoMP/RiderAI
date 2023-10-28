@@ -1,7 +1,8 @@
-import { Dispatch, SetStateAction, useState } from "react";
+import { Dispatch, SetStateAction } from "react";
 import QuestionBackground from "../assets/TarotBackground.jpg"
+
 type Input ={
-    setQuestion: Dispatch<SetStateAction<string | undefined>>;
+    setQuestion: Dispatch<SetStateAction<object | undefined>>;
 }
 export default function TarotInput({setQuestion}:Input){
     function OnEnter(event:React.KeyboardEvent<HTMLInputElement>){
@@ -9,7 +10,7 @@ export default function TarotInput({setQuestion}:Input){
             const queryElement = document.getElementById("query") as HTMLInputElement | null;
             const query = queryElement?.value
             window.alert(query);
-            setQuestion(query)
+            setQuestion({"question":query})
           }
         
     }
@@ -17,7 +18,7 @@ export default function TarotInput({setQuestion}:Input){
         const queryElement = document.getElementById("query") as HTMLInputElement | null;
         const query = queryElement?.value
         window.alert(query);
-        setQuestion(query)
+        setQuestion({"question":query})
     }
     return(
 

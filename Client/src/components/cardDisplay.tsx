@@ -5,7 +5,7 @@ type Card ={
 
 export default function Card({card}:Card) {
   return (
-    <div className="w-5/6 my-1 mx-auto">
+    <div className=" w-1/4 md:w-10/12 my-1 mx-auto">
       {card=="" && <img src={theFool} alt="The Fool" />}
     </div>
   );

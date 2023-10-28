@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Card from "./cardDisplay";
 import TarotInput from "./inputs";
-type pickedCards ={
+type PickedCards ={
   c1: string,
   c2: string,
   c3: string,
@@ -14,9 +14,10 @@ type pickedCards ={
   c10: string
 
 }
+
 const CelticCrossLayout = () => {
-  const [question, setQuestion] = useState<string|undefined>('')
-  const [pickedCards,pickCards] = useState<pickedCards>({
+  const [question, setQuestion] = useState<object|undefined>({"question": ""})
+  const [pickedCards,pickCards] = useState<PickedCards>({
     c1: '',
     c2: '',
     c3: '',
@@ -31,7 +32,7 @@ const CelticCrossLayout = () => {
   })
   return (
   <>
-    {question===""&&<TarotInput setQuestion={setQuestion}/>}
+    {question?.question===""&&<TarotInput setQuestion={setQuestion}/>}
     <div className=" w-screen h-3/4 grid grid-cols-4">
       <div className="col-span-3 grid items-center grid-cols-3">
         <div className="flex items-center col-span-1">
@@ -43,8 +44,11 @@ const CelticCrossLayout = () => {
             <div className= "mx-auto">
               <Card card = {pickedCards.c3}/>
             </div>
-            <div className= "mx-auto">
+            <div className= "relative flex mx-auto">
               <Card card = {pickedCards.c1}/>
+              <div className="rotate-90 w-full z-50 absolute translate-y-8">
+                <Card card = {pickedCards.c2}/>
+              </div>
             </div>
             <div className= "mx-auto">
               <Card card = {pickedCards.c4}/>
